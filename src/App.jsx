@@ -9,15 +9,13 @@ import Footer from "./components/Footer/footer.jsx";
 function App() {
   return (
     <>
-   
-        <Header />
-        <HeroSection />
-        <AboutSection />
-        <Education />
-        <Skill />
-        <Contact />
-        <Footer />
-
+      <Header />
+      <HeroSection />
+      <AboutSection />
+      <Education />
+      <Skill />
+      <Contact />
+      <Footer />
     </>
   );
 }

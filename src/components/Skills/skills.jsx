@@ -9,16 +9,14 @@ import {
   GitBranch,
   Palette,
   Languages,
-  Wrench,
 } from "lucide-react";
 
 const SkillsSection = () => {
-
   useEffect(() => {
     aos.init({
       duration: 1000,
     });
-  })
+  });
   const [isVisible, setIsVisible] = useState(false);
   const [animatedSkills, setAnimatedSkills] = useState({});
 
@@ -33,7 +31,6 @@ const SkillsSection = () => {
 
   const skillCategories = [
     {
-      
       title: "Frontend",
       icon: Code,
       gradient: "from-blue-500 to-purple-600",
@@ -75,7 +72,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section className="py-20  min-h-screen">
+    <section id="skills" className="py-20  min-h-screen scroll-mt-10">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div

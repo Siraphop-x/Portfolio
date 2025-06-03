@@ -60,7 +60,9 @@ const Header = () => {
           </ul>
         </div>
         <a className="btn btn-ghost text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-          <a href="/"  rel="noopener noreferrer">Siraphop-px</a>
+          <a href="/" rel="noopener noreferrer">
+            Siraphop-px
+          </a>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -74,17 +76,26 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a  className=" hover:text-red-500 " onClick={() => scrollToSection("education")}>
+            <a
+              className=" hover:text-red-500 "
+              onClick={() => scrollToSection("education")}
+            >
               Education
             </a>
           </li>
           <li>
-            <a  className=" hover:text-red-500 " onClick={() => scrollToSection("skills")}>
+            <a
+              className=" hover:text-red-500 "
+              onClick={() => scrollToSection("skills")}
+            >
               Skills
             </a>
           </li>
           <li>
-            <a  className=" hover:text-red-500 " onClick={() => scrollToSection("contact")}>
+            <a
+              className=" hover:text-red-500 "
+              onClick={() => scrollToSection("contact")}
+            >
               Contact
             </a>
           </li>
@@ -92,6 +103,7 @@ const Header = () => {
       </div>
       <div className="flex navbar-end gap-2 ">
         <div className="flex items-center gap-2.5 [box-reflect:below_5px_linear-gradient(transparent,#00000055)]">
+          {/* GitHub Icon */}
           <div className="h-20 overflow-hidden group cursor-pointer">
             <a
               href="https://github.com/Siraphop-x"
@@ -165,8 +177,6 @@ const Header = () => {
               </svg>
             </div>
           </div>
-
-          {/* GitHub Icon */}
         </div>
       </div>
     </header>
