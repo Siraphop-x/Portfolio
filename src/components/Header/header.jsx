@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <header
-      className={`navbar fixed top-0 z-50 transition-all duration-300 ${
+      className={`navbar fixed top-0 z-50 transition-all duration-300  ${
         isScrolled
           ? "bg-base-100/90 backdrop-blur-md shadow-lg"
           : "bg-transparent"

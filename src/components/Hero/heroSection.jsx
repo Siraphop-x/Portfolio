@@ -19,7 +19,7 @@ const HeroSection = () => {
             >
               <div className="w-full h-full bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
                 <span className="text-4xl text-white">
-                  <img src="src\assets\eeeee.jpg" alt="" />
+                  <img src="\eeeee.jpg" alt="" />
                 </span>
               </div>
             </div>

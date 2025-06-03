@@ -9,7 +9,7 @@ import Footer from "./components/Footer/footer.jsx";
 function App() {
   return (
     <>
-
+   
         <Header />
         <HeroSection />
         <AboutSection />
@@ -17,7 +17,7 @@ function App() {
         <Skill />
         <Contact />
         <Footer />
-  
+
     </>
   );
 }
