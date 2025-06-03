@@ -66,7 +66,7 @@ const Header = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-2 text-xl">
+        <ul className=" flex  px-1 gap-4 text-xl cursor-pointer">
           <li>
             <a
               className=" hover:text-red-500 "
